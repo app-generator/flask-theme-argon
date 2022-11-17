@@ -1,4 +1,4 @@
-recursive-include tests *.py *.html *.txt *.json
-include argon_app/*
-include argon_app/static/*
-include argon_app/templates/*
+include LICENSE
+include README.rst
+recursive-include argon_app/static *
+recursive-include argon_app/templates *
